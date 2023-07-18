@@ -1,0 +1,3 @@
+USE_OPENCL = False
+USE_CUDA = False
+VERSION = '0.1.7'
