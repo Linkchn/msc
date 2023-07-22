@@ -2,19 +2,13 @@
 from scipy.cluster.hierarchy import complete
 
 from labm8 import fs
-
-# Press ⌃R to execute it or replace it with your code.
-# Press Double ⇧ to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-
+import clgen.clutil
+import clgen.model
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
 
-    import clgen.clutil
-    import clgen.model
-    clgen.clutil.platform_info()
+    # clgen.clutil.platform_info()
     import random
 
     uid = random.randint(0, 100000)
